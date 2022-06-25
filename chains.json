@@ -16,6 +16,20 @@
                         "network": "MAINNET"
                     }
                 }
+            },
+            {
+                "assetId": 1,
+                "symbol": "TIME",
+                "precision": 10,
+                "priceId": "polkadot",
+                "staking": "relaychain",
+                "buyProviders": {
+                     "ramp": {},
+                     "moonpay": {},
+                     "transak": {
+                        "network": "MAINNET"
+                    }
+                }
             }
         ],
         "nodes": [
