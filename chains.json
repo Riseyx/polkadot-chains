@@ -109,6 +109,75 @@
             "crowdloans"
         ]
     },
+        {
+        "chainId": "0",
+        "name": "TimeBank",
+        "assets": [
+            {
+                "assetId": 1,
+                "symbol": "TIME",
+                "precision": 12,
+                "priceId": "timecoin",
+                "staking": "relaychain",
+                "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/HKO.svg",
+                "buyProviders": {
+                     "ramp": {},
+                     "moonpay": {},
+                     "transak": {
+                        "network": "MAINNET"
+                    }
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://node.timecoin.tech:5944",
+                "name": "Timecoin node"
+            }
+        ],
+        "explorers": [
+            {
+                "name": "Subscan",
+                "extrinsic": "https://polkadot.subscan.io/extrinsic/{hash}",
+                "account": "https://polkadot.subscan.io/account/{address}",
+                "event": null
+            },
+            {
+                "name": "Polkascan",
+                "extrinsic": "https://polkascan.io/polkadot/extrinsic/{hash}",
+                "account": "https://polkascan.io/polkadot/account/{address}",
+                "event": "https://polkascan.io/polkadot/event/{event}"
+            },
+            {
+                "name": "Sub.ID",
+                "account": "https://sub.id/{address}"
+            }
+        ],
+        "color": "linear-gradient(315deg, #D43079 0%, #F93C90 100%)",
+        "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
+        "addressPrefix": 0,
+        "types": {
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
+            "overridesCommon": true
+        },
+        "externalApi": {
+            "staking": {
+                "type": "subquery",
+                "url": "https://nova-wallet-polkadot.gapi.subquery.network"
+            },
+            "history": {
+                "type": "subquery",
+                "url": "https://nova-wallet-polkadot.gapi.subquery.network"
+            },
+            "crowdloans": {
+                "type": "github",
+                "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/crowdloan/polkadot-dev.json"
+            }
+        },
+        "options": [
+            "crowdloans"
+        ]
+    },
     {
         "chainId": "3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
         "name": "Polkadex Solochain",
