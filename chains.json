@@ -114,10 +114,10 @@
         "name": "TimeBank",
         "assets": [
             {
-                "assetId": 1,
-                "symbol": "TIME",
+                "assetId": 0,
+                "symbol": "TIMEX",
                 "precision": 12,
-                "priceId": "timecoin",
+                "priceId": "timecoinxs",
                 "staking": "relaychain",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/HKO.svg",
                 "buyProviders": {
@@ -157,7 +157,7 @@
         "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/white/Polkadot.svg",
         "addressPrefix": 0,
         "types": {
-            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
+            "url": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
             "overridesCommon": true
         },
         "externalApi": {
