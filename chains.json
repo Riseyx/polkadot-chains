@@ -21,7 +21,7 @@
                 "assetId": 1,
                 "symbol": "TIME",
                 "precision": 10,
-                "priceId": "polkadot",
+                "priceId": "timecoin",
                 "staking": "relaychain",
                 "buyProviders": {
                      "ramp": {},
