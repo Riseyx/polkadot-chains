@@ -95,19 +95,23 @@
         ]
     },
     {
-        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "chainId": "918971bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "TimeBank",
         "assets": [
             {
                 "assetId": 0,
                 "symbol": "TIMECOIN",
-                "precision": 10,
+                "precision": 12,
                 "priceId": "timecoin",
                 "staking": "relaychain",
                 "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/tokens/white/HKO.svg",
             }
         ],
         "nodes": [
+            {
+                "url": "wss://rpc.polkadot.io",
+                "name": "Parity node"
+            },
             {
                 "url": "wss://node.timecoin.tech:5944",
                 "name": "Timecoin node"
